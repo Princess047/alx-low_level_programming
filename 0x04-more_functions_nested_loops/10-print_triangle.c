@@ -2,7 +2,7 @@
 
 /**
   * print_triangle - Entry point
-  * Description -  printing out a triangle
+  * Description - printing out a triangle
   * @size: size of triangle
   * Return: Always 0 (sucess)
   */
