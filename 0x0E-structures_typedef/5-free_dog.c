@@ -1,17 +1,18 @@
-#include <stdlib.h>
 #include "dog.h"
+#include <stdlib.h>
 
 /**
- * free_dog - Entry Point
- * desc: frees memory allocated for a struct dog
- * @d: struct dog to free
+ * free_dog - free
+ * @d: struct
+ * Return: void
  */
+
 void free_dog(dog_t *d)
 {
-	if (d)
-	{
-		free(d->name);
-		free(d->owner);
-		free(d);
-	}
+	if (d == NULL)
+		return;
+
+	free(d->owner);
+	free(d->name);
+	free(d);
 }
