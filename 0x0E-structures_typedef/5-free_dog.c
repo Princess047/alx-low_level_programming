@@ -1,8 +1,9 @@
-#include "dog.h"
 #include <stdlib.h>
+#include "dog.h"
 
 /**
- * free_dog - free
+ * free_dog - entry point
+ * Desc: a function that frees dogs
  * @d: struct
  * Return: void
  */
